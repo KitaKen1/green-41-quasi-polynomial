@@ -1,0 +1,18 @@
+name = "green41_quasi_polynomial_fc"
+version = "0.1.0"
+defaultTargets = ["Green41DoubleExponentialFC", "Green41SingleExponential",
+  "Green41QuasiPolynomial"]
+
+[[require]]
+name = "formal_conjectures"
+git = "https://github.com/google-deepmind/formal-conjectures"
+rev = "40a8592cb6f7e96cb9a8275d96bb3e013feeb1dc"
+
+[[lean_lib]]
+name = "Green41DoubleExponentialFC"
+
+[[lean_lib]]
+name = "Green41SingleExponential"
+
+[[lean_lib]]
+name = "Green41QuasiPolynomial"
